@@ -1,0 +1,103 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+.container {}
+
+.NAVBAR-container {
+    background-color: black;
+    width: 100%;
+    height: 13vh;
+}
+
+.ul-navbar {
+display: flex;
+height: 80px;
+justify-content: center;
+align-items: center;
+}
+
+.li-navbar {
+border: 1px solid white; 
+list-style-type: none;
+color: white;
+margin: 5px;
+padding: 5px;
+font-size: 20px;
+}
+
+.li-navbar:hover {
+    background-color: gray;
+    transition: .5s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.content-container {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 77vh;
+        width: 100%;
+}
+
+
+.img-container {
+    width: 30%;
+    height: 85%;
+    border-radius: 500px;
+    box-shadow: 66px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 66px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 66px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.about-coutainer {
+display: flexbox;
+align-self: center;
+justify-content: center;
+width: 100%;
+height: 77vh;
+font-size: larger;
+}
+
+.contact-container {
+    width: 100%;
+    height: 77vh;
+}
+
+.contact-aby {
+font-size: xx-large;
+}
+
+.nomor-aby {
+font-size: x-large;
+}
+
+.contact-mamah {
+font-size: xx-large;
+}
+
+.nomor-mamah {
+font-size: x-large;
+}
+
+.CONATAINER-FOOTER {
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 9vh;
+}
+ 
+.h3-footer {
+font-size: 50px;
+color: white;
+}
